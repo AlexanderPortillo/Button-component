@@ -1,0 +1,203 @@
+@use 'mixins';
+
+.default {
+	@include mixins.styles;
+	background-color: #c7c4c4;
+	box-shadow: 0 0 0.5rem #c7c4c4;
+
+	&-hover {
+		&:hover {
+			background-color: #979090;
+		}
+	}
+
+	&-focus {
+		background-color: #979090;
+	}
+}
+
+.outline {
+	@include mixins.styles;
+	background-color: transparent;
+	border: 0.1rem solid #002fff;
+	color: #002fff;
+
+	&-hover {
+		&:hover {
+			background-color: #5572f356;
+		}
+	}
+
+	&-focus {
+		background-color: #5572f356;
+	}
+}
+
+.text {
+	@include mixins.styles;
+	background-color: transparent;
+	color: #002fff;
+
+	&-hover {
+		&:hover {
+			background-color: #5572f356;
+		}
+	}
+
+	&-focus {
+		background-color: #5572f356;
+	}
+}
+
+.dShadow {
+	@include mixins.styles;
+	width: 100px;
+	background-color: #002fff;
+	color: #fff;
+	font-weight: bold;
+}
+
+.disabled {
+	@include mixins.styles;
+	cursor: no-drop;
+	color: #c7c4c4;
+
+	&-text {
+		background-color: transparent;
+	}
+}
+
+.startIcon {
+	@include mixins.styles;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 0.5rem;
+	background-color: #3b5cf1;
+
+	i {
+		order: 1;
+		font-size: 1.1rem;
+		color: #fff;
+	}
+
+	.text {
+		width: max-content;
+		height: max-content;
+		order: 2;
+		font-size: 1.1rem;
+		color: #fff;
+	}
+}
+
+.endIcon {
+	@include mixins.styles;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 0.5rem;
+	background-color: #3b5cf1;
+
+	.text {
+		width: max-content;
+		height: max-content;
+		order: 1;
+		font-size: 1.1rem;
+		color: #fff;
+	}
+
+	i {
+		order: 2;
+		font-size: 1.1rem;
+		color: #fff;
+	}
+}
+
+.sm {
+	@include mixins.styles;
+	width: 90px;
+	height: 30px;
+	background-color: #3b5cf1;
+	color: #fff;
+}
+
+.md {
+	@include mixins.styles;
+	width: 100px;
+	height: 35px;
+	background-color: #3b5cf1;
+	color: #fff;
+}
+
+.lg {
+	@include mixins.styles;
+	width: 120px;
+	height: 45px;
+	background-color: #3b5cf1;
+	color: #fff;
+}
+
+.c-default {
+	@include mixins.styles;
+	background-color: #c7c4c4;
+
+	&-hover {
+		&:hover {
+			background-color: #979090;
+		}
+	}
+
+	&-focus {
+		background-color: #979090;
+	}
+}
+
+.c-primary {
+	@include mixins.styles;
+	background-color: #3b5cf1;
+	color: #fff;
+
+	&-hover {
+		&:hover {
+			background-color: #1038eb;
+		}
+	}
+
+	&-focus {
+		background-color: #1038eb;
+	}
+}
+
+.c-secondary {
+	@include mixins.styles;
+	background-color: #383838;
+	color: #c2bcbc;
+
+	&-hover {
+		&:hover {
+			background-color: #1d1b1b;
+		}
+	}
+
+	&-focus {
+		background-color: #1d1b1b;
+	}
+}
+
+.c-danger {
+	@include mixins.styles;
+	background-color: #eb3636;
+	color: #e4d9d9;
+
+	&-hover {
+		&:hover {
+			background-color: #9e1414;
+		}
+	}
+
+	&-focus {
+		background-color: #9e1414;
+	}
+}

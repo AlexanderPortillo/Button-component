@@ -1,0 +1,52 @@
+.data {
+	&__ol {
+		display: flex;
+		flex-direction: column;
+		gap: 0.6rem;
+	}
+
+	&__li--active {
+		.data__item {
+			color: #080000;
+			font-weight: bold;
+			font-size: 1.5rem;
+		}
+	}
+
+	&__item {
+		font-size: 1.3rem;
+		font-weight: 100;
+		color: #969696;
+
+		&:hover {
+			border-bottom: 1px solid;
+		}
+	}
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+
+	&__group {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 2rem;
+	}
+}
+
+.button {
+	&__container {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	&__class {
+		font-size: 1rem;
+		font-weight: 500;
+		color: #969696;
+	}
+}

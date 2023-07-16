@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	gap: 4rem;
+	min-height: 100vh;
+}
+
+.box {
+	padding: 1rem;
+}
+
+.box:first-child {
+	min-width: 100px;
+	border-right: 0.1rem solid;
+	position: relative;
+}
+
+.data {
+	position: fixed;
+	top: 30%;
+}
+
+.box:last-child {
+	padding: 1rem 0;
+}
+
+.footer__data {
+	color: #999393;
+
+	a {
+		color: #999393;
+	}
+}
+
+@media (max-width: 390px) {
+	.container {
+		gap: 1rem;
+	}
+}

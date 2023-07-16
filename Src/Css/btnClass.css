@@ -1,0 +1,254 @@
+.default {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #c7c4c4;
+  box-shadow: 0 0 0.5rem #c7c4c4;
+}
+.default-hover:hover {
+  background-color: #979090;
+}
+.default-focus {
+  background-color: #979090;
+}
+
+.outline {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0.1rem solid #002fff;
+  color: #002fff;
+}
+.outline-hover:hover {
+  background-color: rgba(85, 114, 243, 0.337254902);
+}
+.outline-focus {
+  background-color: rgba(85, 114, 243, 0.337254902);
+}
+
+.text {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: #002fff;
+}
+.text-hover:hover {
+  background-color: rgba(85, 114, 243, 0.337254902);
+}
+.text-focus {
+  background-color: rgba(85, 114, 243, 0.337254902);
+}
+
+.dShadow {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100px;
+  background-color: #002fff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.disabled {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  cursor: no-drop;
+  color: #c7c4c4;
+}
+.disabled-text {
+  background-color: transparent;
+}
+
+.startIcon {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0.5rem;
+  background-color: #3b5cf1;
+}
+.startIcon i {
+  order: 1;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.startIcon .text {
+  width: max-content;
+  height: max-content;
+  order: 2;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.endIcon {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0.5rem;
+  background-color: #3b5cf1;
+}
+.endIcon .text {
+  width: max-content;
+  height: max-content;
+  order: 1;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.endIcon i {
+  order: 2;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.sm {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  background-color: #3b5cf1;
+  color: #fff;
+}
+
+.md {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  background-color: #3b5cf1;
+  color: #fff;
+}
+
+.lg {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 120px;
+  height: 45px;
+  background-color: #3b5cf1;
+  color: #fff;
+}
+
+.c-default {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #c7c4c4;
+}
+.c-default-hover:hover {
+  background-color: #979090;
+}
+.c-default-focus {
+  background-color: #979090;
+}
+
+.c-primary {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #3b5cf1;
+  color: #fff;
+}
+.c-primary-hover:hover {
+  background-color: #1038eb;
+}
+.c-primary-focus {
+  background-color: #1038eb;
+}
+
+.c-secondary {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #383838;
+  color: #c2bcbc;
+}
+.c-secondary-hover:hover {
+  background-color: #1d1b1b;
+}
+.c-secondary-focus {
+  background-color: #1d1b1b;
+}
+
+.c-danger {
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #eb3636;
+  color: #e4d9d9;
+}
+.c-danger-hover:hover {
+  background-color: #9e1414;
+}
+.c-danger-focus {
+  background-color: #9e1414;
+}
+
+/*# sourceMappingURL=btnClass.css.map */
